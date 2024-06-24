@@ -1,0 +1,143 @@
+
+
+.main-text{
+  
+  background-color: #dbdbdb;
+  padding: 20px;
+  text-align: center;
+}
+
+<style>
+
+
+
+/* Style the header */
+.header {
+  
+    background-color: #dbdbdb;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #000000;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: right;
+    display: block;
+    color: #ffffff;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .stickynav a {
+    float: right;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 180px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #3f8df3;
+    color: rgb(0, 0, 0);
+  }
+ 
+
+.topnav{
+  position: sticky;
+  width: 100%;
+  height: 100px;
+  border: 2px solid #3f8df3;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+  position: sticky;
+  top: 0;
+  text-decoration: none;
+}
+
+.stickynav{
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  border: 2px solid #3f8df3;
+  list-style-type: ;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #010101;
+  position: sticky;
+  top: 0;
+}
+
+</style>
+
+<style>
+
+
+div.gallery {
+  border: 2px solid #3f8df3;
+}
+
+div.kindergarten:hover {
+  border: 5px solid #3f8df3;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding-left: 510px;
+  padding-top: 50px;
+  width: 24.99999%;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div.kindergarten {
+  background-color: #ffffff;
+  width: 250px;
+  box-shadow: 0 8px 6px 0 #3f8df3, 0 20px 20px 0 #3f8df3;
+  text-align: center;
+}
+
+div.container {
+  padding: 10px;
+}
+
+.footer {
+  
+  background-color: #000000;
+  text-decoration: #000000;
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+</style>

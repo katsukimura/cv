@@ -1,0 +1,163 @@
+.main-text{
+  
+  position: absolute;
+  padding-top: 20px;
+  padding-left: 400px;
+  text-align: center;
+}
+
+/* Style the header */
+.header {
+  
+    background-color: #dbdbdb;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #000000;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: right;
+    display: block;
+    color: #ffffff;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #3f8df3;
+    color: rgb(0, 0, 0);
+  }
+ 
+.topnav{
+  width: 100%;
+  height: 100px;
+  border: 2px solid #3f8df3;
+}
+
+<style>
+div.gallery {
+  border: 2px solid #3f8df3;
+}
+
+div.gallery:hover {
+  border: 2px solid #000000;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.video{
+  z-index: -100;
+}
+
+.sub-text{
+  position: absolute;
+  text-align: center;
+  padding-top: 200px;
+  padding-left: 500px;
+}
+
+.last-text{
+  position: absolute;
+  text-align: center;
+  padding-top: 580px;
+  padding-left: 400px;
+}
+
+.body{
+  background-color: #dbdbdb;
+}
+
+.ws-icon{
+  position: absolute;
+  padding-left: 150;
+  padding-top: 300;
+  text-align:center;
+  z-index: 3;
+}
+
+.ig-icon{
+  position: absolute;
+  padding-left: 430;
+  padding-top: 300;
+  text-align:center;
+  z-index: 1;
+}
+
+.x-icon{
+  position: absolute;
+  padding-left: 700;
+  padding-top: 300;
+  text-align:center;
+  z-index: 2;
+}
+
+.gmail-icon{
+  position: absolute;
+  padding-left: 900;
+  padding-top: 300;
+  text-align:center;
+  z-index: 1;
+}
+
+.audio{
+  background-color: #000000;
+  text-decoration: #000000;
+  padding: 20px;
+  text-align: center;
+  color: #000000;
+}
+
+.footer {
+  background-color: #000000;
+  text-decoration: #000000;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 5; 
+}
+</style>

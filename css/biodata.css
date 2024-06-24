@@ -1,0 +1,120 @@
+
+
+.main-text{
+  
+  background-color: #dbdbdb;
+  padding: 20px;
+  text-align: center;
+}
+
+<style>
+/* Style the header */
+.header {
+  
+    background-color: #dbdbdb;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #000000;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: right;
+    display: block;
+    color: #ffffff;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .stickynav a {
+    float: right;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 195px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #3f8df3;
+    color: rgb(0, 0, 0);
+  }
+ 
+.topnav{
+  width: 100%;
+  height: 100px;
+  border: 2px solid #3f8df3;
+}
+
+.stickynav{
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  height: 80px;
+  border: 2px solid #3f8df3;
+  list-style-type: ;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #010101;
+  position: sticky;
+  top: 0;
+}
+
+</style>
+
+
+<style>
+div.gallery {
+  border: 2px solid #3f8df3;
+  border-radius: 8px;
+}
+
+div.gallery:hover {
+  border: px solid #3f8df3;
+}
+
+div.gallery img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+.table{
+  width: ;
+  height: ;
+  border-color: #3f8df3;
+  background-color: #3f8df3;
+  padding-left: 200px;
+}
+
+.body{
+  background-color: #dbdbdb;
+  color: #000000;
+}
+
+
+.footer{
+  background-color: #000000;
+  text-decoration: #000000;
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+</style>

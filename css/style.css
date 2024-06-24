@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins" , sans-serif:display;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #ffe3e3;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    position: relative;
+}
+
+.cotainer video{
+    width: 100%;
+}
+
+.container h1{
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translate( -50%, -50%);
+    color: black;
+    font-size: 90px;
+    font-weight: 600px;
+    letter-spacing: 3px;
+}
+.quotes{
+    width: 100%;
+    position: absolute;
+    text-align: left;
+    bottom: auto;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+.quotes h2{
+    font-size: 45px;
+    margin-top: 10px;
+    font-weight: 500; 
+}
